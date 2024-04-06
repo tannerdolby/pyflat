@@ -1,4 +1,7 @@
 # O(n) time | O(d) space
+# n = the total number of elements in the array
+# including all elements in each subarray
+# d = the maximum subarray depth
 def flatten(array, depth=1):
     nums = []
     for i in range(0, len(array)):
